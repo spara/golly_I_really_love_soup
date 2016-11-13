@@ -6,7 +6,7 @@ This is a chrome extension that replaces
 * President
 * 2016 
 
-wtih, "Golly, I really love soup."
+wtih, "Golly, I really love soup" for, you know, self care.
 
 This is a fork of [milllenials to snake people](https://github.com/ericwbailey/millennials-to-snake-people)
 
