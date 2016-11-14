@@ -6,7 +6,12 @@ This is a chrome extension that replaces
 * President
 * 2016 
 
-wtih, "Golly, I really love soup" for, you know, self care.
+with, "Golly, I really love soup" for, you know, self care.
+
+After looking a social media for a bit, I've expanded it to do the following:
+
+* 'alt-right' now corrects to 'racists'
+* 'Steve Bannon' now corrects to 'Steve Bannon, anti-semite,'
 
 This is a fork of [milllenials to snake people](https://github.com/ericwbailey/millennials-to-snake-people)
 
