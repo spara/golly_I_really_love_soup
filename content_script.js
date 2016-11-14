@@ -29,8 +29,10 @@ function replaceText(v)
 	v = v.replace(/\bpresident\b/g, "Golly, I really love soup.");
 	v = v.replace(/\b2016\b/g, "Golly, I really love soup.");
     v = v.replace(/\balt-right\b/g, "racists");
-    v = v.replace(/\bAlt-Right\b/g, "racists");	
-	V = v.replace(/\bBannon\n/g, "Bannon, anti-semite," );
+    v = v.replace(/\bAlt-Right\b/g, "racists");
+    v = v.replace(/\bPopulist Right\b/g, "racists");
+    v = v.replace(/\bpopulist right\b/g, "racists");
+	v = v.replace(/\bBannon\n/g, "Bannon, anti-semite," );
 
     return v;
 }
