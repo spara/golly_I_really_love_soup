@@ -2,8 +2,8 @@
 	"manifest_version": 2,
 	"name": "Golly, I really love soup",
 	"version": "1.0.1",
-	"description": "Replaces the text 'Trump' with 'Golly, I really love soup'.",
-	"icons": {"256":"icon.png"},
+	"description": "Makes reading articles on the web fun and informative",
+	"icons": {"128":"soup.png"},
 	"content_scripts":
 	[
 		{
