@@ -24,15 +24,24 @@ function handleText(textNode) {
 
 function replaceText(v) 
 {
+    // original
 	v = v.replace(/\bTrump\b/g, "Golly, I really love soup");
 	v = v.replace(/\bPresident\b/g, "Golly, I really love soup.");
 	v = v.replace(/\bpresident\b/g, "Golly, I really love soup.");
 	v = v.replace(/\b2016\b/g, "Golly, I really love soup.");
+    
+    // groups
     v = v.replace(/\balt-right\b/g, "racists");
     v = v.replace(/\bAlt-Right\b/g, "racists");
     v = v.replace(/\bPopulist Right\b/g, "racists");
     v = v.replace(/\bpopulist right\b/g, "racists");
-	v = v.replace(/\bBannon\n/g, "Bannon, anti-semite," );
+    v = v.replace(/\bdeplorables\b/g, "racists, bigots, and misogynists")
+    v = v.replace(/\bDeplorables\b/g, "racists, bigots, and misogynists")
+    v = v.replace(/\bdeplorable\b/g, "I am a racist, bigot, and misogynist")
+    v = v.replace(/\bDeplorable\b/g, "I am a racist, bigot, and misogynist")
+	
+    // people
+    v = v.replace(/\bBannon\n/g, "Bannon, anti-semite," );
 
     return v;
 }
